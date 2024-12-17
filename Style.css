@@ -959,3 +959,12 @@ mark {
     color: #fff;
     margin: 0 10px;
 }
+
+.fixed-banner {
+    background-color: #999;
+    height: 912px;
+    position: fixed;
+    transform: translateZ(0);
+    width: 100%;
+    z-index: -1;
+}
