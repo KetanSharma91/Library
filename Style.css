@@ -64,7 +64,7 @@ a:hover {
 }
 
 
-ul li {
+ul li, div li {
     color: var(--text-color);
     position: relative;
     padding-left: 12px;
@@ -904,6 +904,7 @@ mark {
 .hero-right {
     display: block;
     padding: 200px 85px;
+    text-align: right;
 }
 
 .hero-right h1 {
@@ -929,9 +930,32 @@ mark {
 }
 
 .footer {
-            position: relative;
-            width: 100%;
-            background: #3586ff;
-            min-height: 100px;
-            padding: 20px 50px;
-        }
+    position: relative;
+    width: 100%;
+    background: #3586ff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.social{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+.social li a {
+    color: #fff;
+    margin: 0 10px;
+}
